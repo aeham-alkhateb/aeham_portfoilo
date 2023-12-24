@@ -5,6 +5,20 @@
     align-items: center;
     
 }
+@media (max-width: 767.98px) {
+    .containerS {
+            padding: 0 17%;
+        }
+    .glass {
+        border-radius: 0 !important;
+        margin: 0 0 15px 0 !important;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+  
+        
+}
 
 .containerS .glass {
     

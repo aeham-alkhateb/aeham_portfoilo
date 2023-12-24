@@ -1,17 +1,5 @@
 @charset "UTF-8";
-/*!
-=========================================================
-* Meyawo Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 :root {
   --blue: #1e549f;
@@ -11493,17 +11481,6 @@ pre .code {
   width: 300px;
 }
 
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
-/* hamburger */
-/*
-   * Elastic
-   */
 .hamburger {
   display: inline-block;
   cursor: pointer;
@@ -11638,8 +11615,8 @@ pre .code {
   }
 }
 
-.custom-navbar .logo {
-  font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
+.custom-navbar img .logo {
+  display:'none';
   text-decoration: none;
   color: #fff;
 }
@@ -11713,6 +11690,7 @@ pre .code {
 }
 
 .custom-navbar.affix .logo {
+  display:block;
   color: #695aa6;
 }
 
