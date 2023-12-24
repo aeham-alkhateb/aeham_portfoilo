@@ -11481,6 +11481,17 @@ pre .code {
   width: 300px;
 }
 
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+/* hamburger */
+/*
+   * Elastic
+   */
 .hamburger {
   display: inline-block;
   cursor: pointer;
