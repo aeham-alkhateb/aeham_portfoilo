@@ -11626,8 +11626,8 @@ pre .code {
   }
 }
 
-.custom-navbar img .logo {
-  display:'none';
+.custom-navbar img  {
+  visibility: hidden;
   text-decoration: none;
   color: #fff;
 }
@@ -11699,7 +11699,9 @@ pre .code {
   background: #fff;
   border-bottom: 1px solid rgba(222, 226, 230, 0.34);
 }
-
+.custom-navbar.affix img{
+  visibility: visible;
+}
 .custom-navbar.affix .logo {
   display:block;
   color: #695aa6;
