@@ -8,16 +8,16 @@
     <meta name="author" content="Devcrud">
     <title>Aeham Portfoilo</title>
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="public_html/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + aeham main styles -->
-    <link rel="stylesheet" href="assets/css/aeham.css">
-    <link rel="stylesheet" href="assets/css/social.css">
-    <link rel="stylesheet" href="assets/css/contant.css">
-    <link rel="stylesheet" href="assets/css/button.css">
-    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="public_html/assets/css/aeham.css">
+    <link rel="stylesheet" href="public_html/assets/css/social.css">
+    <link rel="stylesheet" href="public_html/assets/css/contant.css">
+    <link rel="stylesheet" href="public_html/assets/css/button.css">
+    <link rel="stylesheet" href="public_html/assets/css/slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
-    <link rel="stylesheet" href="assets/css/playbtn.css">
-
+    <link rel="stylesheet" href="public_html/assets/css/playbtn.css">
+    <link rel="shortcut icon" type="image/x-icon" href="public_html/assets/imgs/slogo.png" />
 
 
 
@@ -29,6 +29,8 @@
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
+                        <img class="logo" width="120" height="40" src="public_html/assets/imgs/logo.png" href="#"></img>
+
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="#home">Home</a>
@@ -76,7 +78,7 @@
             <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
-                    <img src="assets/imgs/aeham.jpeg" class="about-img">
+                    <img src="public_html/assets/imgs/aeham.jpeg" class="about-img">
                 </div>
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I ?</p>
@@ -109,7 +111,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/responsive.svg" class="icon">
+                            <img src="public_html/assets/imgs/responsive.svg" class="icon">
                             <h6 class="title">FRONT-END Development</h6>
                             <p class="subtitle"> HTML || CSS || JavaScript VueJS</p>
                         </div>
@@ -118,7 +120,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/pencil-case.svg" class="icon">
+                            <img src="public_html/assets/imgs/pencil-case.svg" class="icon">
                             <h6 class="title">Web Designing</h6>
                             <p class="subtitle">Work on Figma</p>
                         </div>
@@ -129,7 +131,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/analytics.svg" class="icon">
+                            <img src="public_html/assets/imgs/analytics.svg" class="icon">
                             <h6 class="title">Programing </h6>
                             <p class="subtitle"> Python || C# || java || Software Engineering</p>
                         </div>
@@ -138,7 +140,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/toolbox.svg" class="icon">
+                            <img src="public_html/assets/imgs/toolbox.svg" class="icon">
                             <h6 class="title">Network Engineer</h6>
                             <p class="subtitle">Networking graduate </p>
                         </div>
@@ -157,8 +159,8 @@
         <div class="swiper-container main-slider loading" style="padding-bottom: 2%;">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <figure class="slide-bgimg" style="background-image:url(assets/imgs/Habler.png)">
-                        <img src="assets/imgs/Habler.png" class="entity-img" />
+                    <figure class="slide-bgimg" style="background-image:url(public_html/assets/imgs/Habler.png)">
+                        <img src="public_html/assets/imgs/Habler.png" class="entity-img" />
                     </figure>
                     <div class="content">
                         <h6 class="title">Hablar</h6>
@@ -171,26 +173,28 @@
                             I worked as the website FRONT-END developer.
                         </span>
                         <div class="row">
-
+                            
+                            <div class="col-sm-4">
                             <button class="button" onclick="showDiv(2)">
                                 <img class="svgIcon" width="32" height="32"
                                     src="https://img.icons8.com/puffy/100/FFFFFF/experimental-play-puffy.png"
                                     alt="experimental-play-puffy" />
                             </button>
-                            <button class="buttonG">
+                            <button class="buttonG" onclick="window.open('https://github.com/aeham-alkhateb/hablar_junior',`_blank`)">
                                 <svg class="svgIcon" fill="white" viewBox="0 0 496 512" height="1.6em">
                                     <path
                                         d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
                                     </path>
                                 </svg>
                             </button>
+                            </div>
                         </div>
                     </div>
 
                 </div>
                 <div class="swiper-slide">
-                    <figure class="slide-bgimg" style="background-image:url(assets/imgs/happy.png)">
-                        <img src="assets/imgs/happy.png" class="entity-img" />
+                    <figure class="slide-bgimg" style="background-image:url(public_html/assets/imgs/happy.png)">
+                        <img src="public_html/assets/imgs/happy.png" class="entity-img" />
                     </figure>
                     <div class="content">
                         <h6 class="title">SCHOOL system</h6>
@@ -198,20 +202,22 @@
                             My first project,<br> made with html & css & js & php.
                         </span>
                         <div class="row">
-
-                            <button class="buttonG">
+                            
+                            <div class="col-sm-4">
+                            <button class="buttonG" onclick="window.open('https://github.com/aeham-alkhateb/school-system',`_blank`)" >
                                 <svg class="svgIcon" fill="white" viewBox="0 0 496 512" height="1.6em">
                                     <path
                                         d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
                                     </path>
                                 </svg>
                             </button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="slide-bgimg" style="background-image:url(assets/imgs/E-solutions.JPG)">
-                        <img src="assets/imgs/E-solutions.JPG" class="entity-img" />
+                    <figure class="slide-bgimg" style="background-image:url(public_html/assets/imgs/E-solutions.JPG)">
+                        <img src="public_html/assets/imgs/E-solutions.JPG" class="entity-img" />
                     </figure>
                     <div class="content">
                         <h6 class="title">E-Solutions Hosting system</h6>
@@ -223,13 +229,13 @@
                             I worked as the project manager and the FRONT-END developer.
                         </span>
                         <div class="row">
-
+                            <div class="col-sm-4">
                             <button class="button" onclick="showDiv(1)">
                                 <img class="svgIcon" width="32" height="32"
                                     src="https://img.icons8.com/puffy/100/FFFFFF/experimental-play-puffy.png"
                                     alt="experimental-play-puffy" />
                             </button>
-                            <button class="buttonG">
+                            <button class="buttonG" onclick="window.open('https://github.com/aeham-alkhateb/E-solutins',`_blank`)">
                                 <svg class="svgIcon" fill="white" viewBox="0 0 496 512" height="1.6em">
                                     <path
                                         d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
@@ -237,6 +243,9 @@
                                 </svg>
                             </button>
                         </div>
+                        </div>
+                        
+
                     </div>
                 </div>
 
@@ -250,21 +259,21 @@
         <div class="swiper-container nav-slider loading" style="padding-bottom: 2%;">
             <div class="swiper-wrapper" role="navigation">
                 <div class="swiper-slide">
-                    <figure class="slide-bgimg" style="background-image:url(assets/imgs/Habler.png)">
-                        <img src="assets/imgs/Habler.png" class="entity-img" />
+                    <figure class="slide-bgimg" style="background-image:url(public_html/assets/imgs/Habler.png)">
+                        <img src="public_html/assets/imgs/Habler.png" class="entity-img" />
                     </figure>
 
                 </div>
                 <div class="swiper-slide">
-                    <figure class="slide-bgimg" style="background-image:url(assets/imgs/happy.png)">
-                        <img src="assets/imgs/happy.png" class="entity-img" />
+                    <figure class="slide-bgimg" style="background-image:url(public_html/assets/imgs/happy.png)">
+                        <img src="public_html/assets/imgs/happy.png" class="entity-img" />
                     </figure>
 
                 </div>
 
                 <div class="swiper-slide">
-                    <figure class="slide-bgimg" style="background-image:url(assets/imgs/E-solutions.JPG)">
-                        <img src="assets/imgs/E-solutions.JPG" class="entity-img" />
+                    <figure class="slide-bgimg" style="background-image:url(public_html/assets/imgs/E-solutions.JPG)">
+                        <img src="public_html/assets/imgs/E-solutions.JPG" class="entity-img" />
                     </figure>
 
                 </div>
@@ -418,14 +427,14 @@
     </div> <!-- end of page footer -->
 
     <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="public_html/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="public_html/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="public_html/assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- aeham js -->
-    <script src="assets/js/aeham.js"></script>
+    <script src="public_html/assets/js/aeham.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
 
     <script>
