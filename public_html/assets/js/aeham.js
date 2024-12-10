@@ -26,7 +26,7 @@ $('#nav-toggle').click(function(){
 
 
 function showDiv(n) {
-    for (let index = 1; index < 3; index++) {
+    for (let index = 1; index < 4; index++) {
         document.getElementById('welcomeDiv'+index).style.display = "none";
         
     }
